@@ -20,6 +20,8 @@ import { MyDocument } from '../../model/MyDocument.model';
         <p>{{ document.description }}</p>
         <mat-divider></mat-divider>
         <p>Number of pages: {{ document.numPages }}</p>
+        <p>Type: {{ document.type }}</p>
+        <p>Format: {{ document.format }}</p>
       </mat-card-content>
       <mat-card-actions>
         <button mat-button (click)="onDetails()">DETAILS</button>
